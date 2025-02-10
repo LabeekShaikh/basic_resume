@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+        }
+        .left-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .right-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        h1 span {
+            font-weight: bold;
+        }
+        h2 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+        .section h3 {
+            border-bottom: 2px solid black;
+            padding-bottom: 5px;
+        }
+        .contact a {
+            text-decoration: none;
+            color: blue;
+            display: block;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1><span>Labeek Shaikh</span></h1>
+    <h2>Frontend Developer</h2>
+    <div class="container">
+        <div class="left-column">
+            <div class="section contact">
+                <h3>Contact</h3>
+                <a href="mailto:your-email@example.com">labeekshaikh393@gmail.com</a>
+                <a href="#">gh-labeekshaikh</a>
+                <a href="#">linkedin-labeekshaikh</a>
+            </div>
+            <div class="section skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML, CSS, GitHub, VS Code...</li>
+                </ul>
+            </div>
+            <div class="section education">
+                <h3>Education</h3>
+                <p class="bold">Btech</p>
+                <p>Poornima University</p>
+                <p>2018 - 2022</p>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="section about">
+                <h3>About</h3>
+                <p>A front-end developer is a skilled professional responsible for creating and maintaining the visual aspects of websites and web applications. They utilize languages like HTML, CSS, and JavaScript to ensure an engaging, responsive, and user-friendly experience. Their goal is to bridge design and functionality seamlessly for users.</p>
+            </div>
+            <div class="section experience">
+                <h3>Work Experience</h3>
+                <p class="bold">JOB TITLE</p>
+                <p>Company Name | 2008 - 2010</p>
+                <p>Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights.</p>
+                <ul>
+                    <li>Cool accomplishment</li>
+                    <li>Cool accomplishment</li>
+                    <li>Cool accomplishment</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
